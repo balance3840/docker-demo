@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World MOD 2!');
+  res.send('Hello World MOD 2 RESTART DOCKER!');
 });
 
 var server = app.listen(3000, function () {
